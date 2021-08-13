@@ -1,0 +1,16 @@
+[
+  {
+    "name": "hello",
+    "image": "crccheck/hello-world:latest",
+    "essential": true,
+    "environment": [],
+    "entrypoint": null,
+    "portMappings": [
+      {
+        "hostPort": 80,
+        "protocol": "tcp",
+        "containerPort": 80
+      }
+    ]
+  }
+]
